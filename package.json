@@ -91,12 +91,6 @@
   "resolutions": {
     "@types/react": "^16.x"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn test"
-    }
-  },
   "lint-staged": {
     "**/*.{js,ts,json,css,md}": [
       "prettier -w"
